@@ -14,23 +14,40 @@
 .infotabs a:hover{background-color:lightblue;color:black}
 .mainpage{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:30px;color:white;text-align:left}
 .leftmain{ flex:60%;font-size:150%;text-align:center}
-   .leftmain a{color:white}
-   .leftmain a:hover{color:lightblue}
+.leftmain a{color:white}
+.leftmain a:hover{color:lightblue}
 .rightmain{ flex:40%;font-family:courier}
 .footer{background-color:lightblue;display:flex;flex-direction:row;justify-content:center;align-item:center;color:white;font-family:courier}
-.backgroundvid{position: fixed;
+.backgroundvid
+{
+position: fixed;
 top: 0%;
 bottom: 0%;
 left: 0%;
 min-width: 100%; 
 min-height: 100%;
-z-index:-1;}
-   .button{ background-color:black;font-size:20px;padding:5px 10px;border-radius:8px;color:white;border:2px solid lightblue}
-   .button:hover{background-color:lightblue;color:black}
+z-index:-1
+}
+.button
+{ 
+background-color:black;
+font-size:20px;
+padding:5px 10px;
+border-radius:8px;
+color:white;
+border:2px solid lightblue
+}
+.button:hover
+{
+   background-color:lightblue;
+   color:black
+}
 @media screen and (max-width: 700px)
-   { .mainpage , .info , .infotabs
-      { flex-direction:column}
-   }
+{ .mainpage , .info , .infotabs
+      {
+         flex-direction:column
+      }
+}
 </style>
 </head>
 <body>
@@ -45,72 +62,74 @@ z-index:-1;}
 </div>
 <hr width="85%">
 <div class="info">
- <img src="zinelogosmall.png" alt="zinelogo" height="150px" width="300px">
- <div class="infotabs">
- <a href="#">HOME</a>
- <a href="#">PROJECTS</a>
- <a href="#">TEAM</a>
- <a href="#">ACHIEVEMENTS</a>
- </div>
+   <img src="zinelogosmall.png" alt="zinelogo" height="150px" width="300px">
+   <div class="infotabs">
+   <a href="#">HOME</a>
+   <a href="#">PROJECTS</a>
+   <a href="#">TEAM</a>
+   <a href="#">ACHIEVEMENTS</a>
+   </div>
 </div>
 <div class="mainpage">
    <video autoplay muted loop class="backgroundvid">
       <source src="robovid2.mp4" type="video/mp4">
-     </video>   
-  <div class="leftmain">
-  <h1 style="font-family:courier;text-align:center;font-size:200%"><b>WORKSHOP'19</b></h1>
+   </video>   
+   <div class="leftmain">
+     <h1 style="font-family:courier;text-align:center;font-size:200%"><b>WORKSHOP'19</b></h1>
      <p> INTERESTED IN ROBOTICS?</p>
      <p>WANNA ENTER A NEW WORLD WHICH EXPLAINS YOU YOUR SURROUNDINGS?</p>
      <p>HERE YOU BEGIN!</p>
-  <p>
-  WE COVER VAST VARIETY OF TOPICS FROM DIFFERENT ARENAS OF ROBOTICS
-  </p>
- <ul>
-  <li>
-     <a style="font-size:90%" href="#" target="new">ETHICAL HACKING</a>
-  </li>
-     <li>
-        <a style="font-size:90%" href="#" target="new">AERODYNAMICS</a>
-     </li>
-     <li>
-        <a style="font-size:90%" href="#" target="new">WEB DEVELOPMENT</a>
-     </li>
-     <li>
-        <a style="font-size:90%" href="#" target="new">APP DEVELOPMENT</a>
-     </li>
-     <li>
-        <a style="font-size:90%" href="#" target="new">IMAGE PROCESSING</a>
-     </li>
-    <p>Along with many<b><a href="#" target="new" style="font-size:90%"> PRACTICALS</a></b></p>
-  </ul>
+     <p>
+       WE COVER VAST VARIETY OF TOPICS FROM DIFFERENT ARENAS OF ROBOTICS
+     </p>
+     <ul>
+        <li>
+           <a style="font-size:90%" href="#" target="new">ETHICAL HACKING</a>
+        </li>
+        <li>
+           <a style="font-size:90%" href="#" target="new">AERODYNAMICS</a>
+        </li>
+        <li>
+           <a style="font-size:90%" href="#" target="new">WEB DEVELOPMENT</a>
+        </li>
+        <li>
+           <a style="font-size:90%" href="#" target="new">APP DEVELOPMENT</a>
+        </li>
+        <li>
+           <a style="font-size:90%" href="#" target="new">IMAGE PROCESSING</a>
+        </li>
+     </ul>
+     <p>
+        Along with many<b><a href="#" target="new" style="font-size:90%">PRACTICALS</a></b>
+     </p>
   </div>
   <div class="rightmain">
-  <h2 style="background-color:lightblue;padding:2px;text-align:center">REGISTER YOURSELF SOON!</h2>
-  <h4 style="background-color:white;padding:2px;color:black;text-align:center">ONLY 350 THIS TIME!</h4>
-  <form action="#">
-     <h3>FIRST NAME:</h3>
-     <input type="text" placeholder="Your Name" required ></input>
-     <h3>LAST NAME:</h3>
-     <input type="text" placeholder="LAST NAME" required></input>
-     <h3>DOB:</h3>
-     <input type="date" placeholder="DOB" required></input>
-     <h3>COLLEGE ID:</h3>
-     <input type="text" placeholder="ID-2019UXXXXXX" required></input>
-     <h3>HOSTELLER:</h3>
-     <input type="radio" name="hosteller" value="yes" checked >YES</input>
-     <input type="radio" name="hosteller" value="no">NO</input>
-     <h3>E-mail :</h3>
-     <input type="email" placeholder="email" required></input>
-     <br /><br/>
-     <input class="button" type="submit" value="SUBMIT">CONFIRM YOUR POSITION!</input>
-     <br /><br />
-     <input class="button" type="reset" value="RESET">MESSED IT! RESET NOW!</input>
-  </form>
+    <h2 style="background-color:lightblue;padding:2px;text-align:center">REGISTER YOURSELF SOON!</h2>
+    <h4 style="background-color:white;padding:2px;color:black;text-align:center">ONLY 350 THIS TIME!</h4>
+    <form action="#">
+        <h3>FIRST NAME:</h3>
+            <input type="text" placeholder="Your Name" required ></input>
+        <h3>LAST NAME:</h3>
+            <input type="text" placeholder="LAST NAME" required></input>
+        <h3>DOB:</h3>
+            <input type="date" placeholder="DOB" required></input>
+        <h3>COLLEGE ID:</h3>
+            <input type="text" placeholder="ID-2019UXXXXXX" required></input>
+        <h3>HOSTELLER:</h3>
+            <input type="radio" name="hosteller" value="yes" checked >YES</input>
+            <input type="radio" name="hosteller" value="no">NO</input>
+        <h3>E-mail :</h3>
+            <input type="email" placeholder="email" required></input>
+        <br /><br/>
+            <input class="button" type="submit" value="SUBMIT">CONFIRM YOUR POSITION!</input>
+        <br /><br />
+            <input class="button" type="reset" value="RESET">MESSED IT! RESET NOW!</input>
+     </form>
   </div>
 </div>
-<hr width="85%">
-<div class="footer">
-<h2>Copyright: ZINE-2018</h2>
-</div>
+  <hr width="85%">
+  <div class="footer">
+  <h2>Copyright: ZINE-2018</h2>
+  </div>
 </body>
 </html>
